@@ -157,6 +157,6 @@ print("  drawing heat from a much larger patch of road than it covers.")
 print("  Two rules follow: cover as much of the road as the budget allows,")
 print("  and make each heat pipe wide compared with the module it serves.")
 
-np.save("/home/claude/sim2d_T.npy", T)
-np.save("/home/claude/sim2d_K.npy", K)
+np.save("sim2d_T.npy", T)
+np.save("sim2d_K.npy", K)
 print("\n  temperature field saved for the figure")
