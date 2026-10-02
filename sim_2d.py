@@ -157,6 +157,8 @@ print("  drawing heat from a much larger patch of road than it covers.")
 print("  Two rules follow: cover as much of the road as the budget allows,")
 print("  and make each heat pipe wide compared with the module it serves.")
 
+# Save the temperature and conductivity fields next to this script, so the
+# figure can be redrawn without re-running the whole solve.
 np.save("sim2d_T.npy", T)
 np.save("sim2d_K.npy", K)
 print("\n  temperature field saved for the figure")
