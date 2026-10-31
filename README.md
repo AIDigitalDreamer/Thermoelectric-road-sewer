@@ -3,7 +3,7 @@ Feasibility model and simulation code for thermoelectric energy harvesting from 
 
 # Thermoelectric Road-to-Sewer Energy Harvesting — Model Code
 
-Code supporting the paper *"Thermoelectric Energy Harvesting from Urban Waste Hea"* by Kavish Shah.
+Code supporting the paper *"Thermoelectric Energy Harvesting from Urban Waste Heat"* by Kavish Shah.
 
 - `teg_module.py` — the 1-D thermal-resistance model. Computes the capture fraction, the coupled road-to-sewer design's electrical output, and the module-area vs. sewer-flow-rate table (Tables 2-5 and every number in Sections 7-10 of the paper). No dependencies — run with:
   ```
