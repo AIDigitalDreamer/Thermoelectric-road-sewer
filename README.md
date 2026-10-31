@@ -5,9 +5,9 @@ Feasibility model and simulation code for thermoelectric energy harvesting from 
 
 Code supporting the paper *"Thermoelectric Energy Harvesting from Urban Waste Hea"* by Kavish Shah.
 
-- `teg_model.py` — the 1-D thermal-resistance model. Computes the capture fraction, the coupled road-to-sewer design's electrical output, and the module-area vs. sewer-flow-rate table (Tables 2-5 and every number in Sections 7-10 of the paper). No dependencies — run with:
+- `teg_module.py` — the 1-D thermal-resistance model. Computes the capture fraction, the coupled road-to-sewer design's electrical output, and the module-area vs. sewer-flow-rate table (Tables 2-5 and every number in Sections 7-10 of the paper). No dependencies — run with:
   ```
-  python3 teg_model.py
+  python3 teg_module.py
   ```
 
 - `sim_2d.py` — a 2-D finite-difference check of the 1-D model, including a mesh-convergence study (Section 7.5). Needs `numpy` and `scipy`:
